@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bryce Moore's Resume</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    h1, h2 {
+        color: #0056b3;
+    }
+    h2 {
+        border-bottom: 2px solid #0056b3;
+        padding-bottom: 3px;
+    }
+    p {
+        line-height: 1.5;
+    }
+    .contact-info, .education, .work-experience, .projects, .skills {
+        margin-bottom: 20px;
+    }
+    .project {
+        margin-bottom: 10px;
+    }
+    #AudioInsight {
+        max-width: 200px;
+    }
+    #VolManager {
+        max-width: 400px;
+    }
+    a {
+        color: #0056b3;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Bryce Moore</h1>
+    <div class="contact-info">
+        <p>125 Couplet Drive, Athens GA</p>
+        <p>Phone: 678-684-9241 | Email: <a href="mailto:brycepmoore@gmail.com">brycepmoore@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Bryce-Moore" target="_blank">https://github.com/Bryce-Moore</a></p>
+    </div>
+
+    <div class="objective">
+        <h2>Objective</h2>
+        <p>Aspiring software engineer seeking the opportunity to gain professional experience. 
+            Proficient in developing web applications, RESTful APIs, and managing static servers on Linux cloud platforms. 
+            Interested in all aspects of quality software delivery with a willingness to learn and take on additional responsibilities during an internship.</p>
+    </div>
+
+    <div class="education">
+        <h2>Education</h2>
+        <p>Kennesaw State University, B.S. Computer Science - Expected Graduation August 2024</p>
+        <p>Relevant Coursework: User Interface Engineering, Internet Programming, Software Architecture & Design, Cloud Software Development, Database Systems, Data Structures</p>
+    </div>
+
+    <div class="skills">
+        <h2>Technical Skills</h2>
+        <p>Typescript/JS, React, Python, MySQL, Apache, Linux Terminal</p>
+    </div>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AudioInsight</h3>
+            <a href="https://github.com/Bryce-Moore/AudioInsight" target="_blank">Github</a>
+            <p>A React application written in TypeScript designed to display unique song metrics from Spotify's API based on user searches. Implements token-based authorization with PKCE and animated graphics to display metrics.</p>
+            <img id="AudioInsight" src="AudioInsight.gif" alt="AudioInsight.gif">
+            <hr>
+        </div>
+        <div class="project">
+            <h3>SP-8 VolunteerManager</h3>
+            <a href="https://github.com/Bryce-Moore/SP-8-VolunteerManager" target="_blank">Github</a>
+            <p>Senior university project focused on designing core functionalities of a React application for logging volunteer shifts through user-friendly online forms. Features token-based authorization and role management systems.</p>
+            <img id="VolManager" src="VolManager.png" alt="VolManager.png">
+            <hr>
+        </div>
+        <div class="project">
+            <h3>ConMan</h3>
+            <a href="https://github.com/Bryce-Moore/ConMan" target="_blank">Github</a>
+            <p>A CLI tool in Golang for managing SSH connections, allowing users to save and establish connections using custom names and flags for management commands.</p>
+        </div>
+    </div>
+
+    <div class="work-experience">
+        <h2>Work Experience</h2>
+        <p>Assembler and Machinist, Stack-Light.com & CMH Industries, Summer 2023</p>
+        <ul>
+            <li>Assembled and shipped orders of industrial signal lights and accessories.</li>
+            <li>Followed schematics for assembly and utilized various machining tools.</li>
+            <li>Performed basic soldering to connect wires to circuit boards.</li>
+        </ul>
+        <p>Team Member, Zaxby's, 2016-Present</p>
+        <ul>
+            <li>Handled customer service, order taking, and cooking using various kitchen equipment.</li>
+            <li>Managed inventory receiving and unloading.</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
